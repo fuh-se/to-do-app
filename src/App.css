@@ -1,0 +1,68 @@
+.App {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Todo App css */
+.todo-app{
+  /* text-align: center; */
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.ant-card-head-title{
+  text-align: center;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.todo-app-btn{
+  border-radius: 40px !important;
+}
+
+.todo-app-btn:hover{
+  background-color: #1890FF;
+  color: whitesmoke;
+}
+
+.add-new-task-input{
+  border-radius: 50px;
+}
+
+.ant-card{
+  border-radius: 1rem;
+  border:0.1rem #3333;
+  border-style: solid;
+}
